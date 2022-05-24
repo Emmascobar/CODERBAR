@@ -100,7 +100,7 @@ header .header-top h1 span {
 
 @media screen and (min-width: 100px) and (max-width: 748px) {
   header .header-top h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 }
 
