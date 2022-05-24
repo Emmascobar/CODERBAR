@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+body visited {
+  color: #ebbc12;
+}
+
 body ul {
   list-style: none;
 }

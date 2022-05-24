@@ -32,6 +32,10 @@ body {
     font-family: $fuente1;
     margin: 0;
 
+    visited {
+        color: $gold;
+    }
+
     ul {
         list-style: none;
 
@@ -133,7 +137,7 @@ header {
             a {
                 color: $gris;
             }
-            
+
             a:visited {
                 color: $gris;
             }

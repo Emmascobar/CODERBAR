@@ -156,6 +156,13 @@ main .cuerpo .card {
   border-radius: 20px;
 }
 
+@media screen and (min-width: 100px) and (max-width: 748px) {
+  main .cuerpo .card {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
 main .cuerpo .card p {
   text-align: center;
   padding-bottom: 2rem;
@@ -164,6 +171,12 @@ main .cuerpo .card p {
 main .cuerpo .card .card-title {
   font-size: 1.6rem;
   text-align: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 748px) {
+  main .cuerpo .card .card-title {
+    font-size: 1.2rem;
+  }
 }
 
 main .cuerpo .card .link {
