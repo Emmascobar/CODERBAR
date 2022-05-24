@@ -1,0 +1,33 @@
+{
+  "name": "proyecto-coder-version-2.0",
+  "version": "1.0.0",
+  "description": "Proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmascobar/Proyectofinal.git"
+  },
+  "keywords": [
+    "Proyecto",
+    "Final",
+    "Coderhouse"
+  ],
+  "author": "Emmanuel Escobar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmascobar/Proyectofinal/issues"
+  },
+  "homepage": "https://github.com/Emmascobar/Proyectofinal#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

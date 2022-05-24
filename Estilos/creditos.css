@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body ul {
+  list-style: none;
+}
+
+body ul:visited {
+  color: #ebbc12;
+}
+
+body ul:hover {
+  size: 20px;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:visited {
+  text-decoration: none;
+  color: #fd7e00;
+}
+
+header {
+  font-family: "Questrial", sans-serif;
+  background-image: url(../Recursos/Imgback1.jpg);
+  background-position: center, center;
+}
+
+header .header-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+header .header-top .logo {
+  margin: 1.5rem;
+  height: 6rem;
+}
+
+header .header-top .logo img {
+  display: block;
+  width: 100px;
+}
+
+header .header-top h1 {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 4px 4px #212529;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  text-decoration: overline;
+  text-decoration-color: #ebbc12;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 25px;
+  margin-top: 1.5rem;
+}
+
+header .header-top h1 span {
+  color: #ebbc12;
+}
+
+@media screen and (min-width: 100px) and (max-width: 748px) {
+  header .header-top h1 {
+    font-size: 70px;
+  }
+}
+
+header .header-top .Registro {
+  display: flex;
+  flex-direction: column;
+}
+
+header .header-top .Registro a {
+  color: #212529;
+}
+
+header .header-top .Registro a:visited {
+  color: #212529;
+}
+
+header .header-top .Registro .header-boton-login {
+  cursor: pointer;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+header .header-top .Registro .header-boton-login:hover {
+  background-color: #ebbc12;
+}
+
+header .header-top .Registro .header-boton-register {
+  cursor: pointer;
+  font-size: 15px;
+  color: #262424;
+  background-color: #ebbc12;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+header .header-top .Registro .header-boton-register:hover {
+  background-color: white;
+}
+
+header .barra-arriba .logito {
+  margin: 2rem;
+}
+
+header .barra-arriba #navbarNav {
+  letter-spacing: 5px;
+  margin-right: 2rem;
+  justify-content: space-between;
+}
+
+main {
+  width: 100%;
+  font-family: "Questrial", sans-serif;
+  background-color: #272a2e;
+  background-image: url(../Recursos/Fondo.jpg);
+  margin: 0;
+  padding: 2 rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+main h2 {
+  color: whitesmoke;
+  text-shadow: 2px 2px #212529;
+  font-weight: bold;
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #212529;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+main iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main .medio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(../Recursos/Fondo.jpg);
+  padding: 3rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+main .medio .progress {
+  width: 70%;
+}
+
+main .medio a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+main .medio a:visited {
+  color: gold;
+  text-decoration: none;
+}
+
+main .medio h3 {
+  color: whitesmoke;
+  text-shadow: 2px 2px #212529;
+  font-size: 100;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 748px) {
+  main .medio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.container {
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #212529;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  top: -80px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  max-width: 150px;
+  transition: all 0.4s;
+}
+
+.profile-info {
+  color: #BDBDBD;
+  padding-top: 4.5rem;
+  padding-bottom: 50px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.profile-info .bio {
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.profile-info h2 {
+  color: #E8E8E8;
+  letter-spacing: 4px;
+  padding-bottom: 12px;
+}
+
+.profile-info span {
+  display: block;
+  font-size: 12px;
+  color: #ebbc12;
+  letter-spacing: 2px;
+}
+
+.profile-info a {
+  color: #ebbc12;
+}
+
+.profile-info i {
+  padding: 15px 35px 0px 35px;
+}
+
+.profile-card:hover .profile-pic {
+  transform: scale(1.1);
+}
+
+.profile-card:hover .profile-info hr {
+  opacity: 1;
+}
+
+/* Subrayado desde centro */
+.hvr-underline-from-center {
+  padding: 1rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-center span {
+  font-size: 1rem;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 52%;
+  right: 52%;
+  bottom: 0;
+  background: #FFFFFF;
+  border-radius: 50%;
+  height: 3px;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.profile-card:hover .hvr-underline-from-center:before,
+.profile-card:focus .hvr-underline-from-center:before,
+.profile-card:active .hvr-underline-from-center:before {
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #CECECE;
+  border-radius: 0;
+}
+
+footer {
+  font-family: 'Questrial', sans-serif;
+  background-color: #272a2e;
+  border: 1.5rem solid #272a2e;
+}
+
+footer h3 {
+  color: whitesmoke;
+  text-shadow: 3px 3px #212529;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+footer h3 span {
+  color: #ebbc12;
+}
+
+footer .nav-item {
+  align-items: center;
+  text-align: center;
+}
+
+footer .nav-item:hover {
+  color: #212529;
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+footer .barra-abajo {
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 100px) and (max-width: 748px) {
+  footer .barra-abajo .nav-link {
+    display: none;
+  }
+}
+
+footer .bi-shop {
+  font-size: 20px;
+  color: #ebbc12;
+  text-align: center;
+  align-items: center;
+}
+
+footer .bi-boxes {
+  font-size: 20px;
+  color: #ebbc12;
+  text-align: center;
+  align-items: center;
+}
+
+footer .bi-chat-dots-fill {
+  font-size: 20px;
+  color: #ebbc12;
+  text-align: center;
+  align-items: center;
+}
+
+footer .bi-file-earmark-person-fill {
+  font-size: 20px;
+  color: #ebbc12;
+  text-align: center;
+  align-items: center;
+}
+
+footer .pie {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 748px) {
+  footer .pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+footer .animacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  margin-bottom: 1rem;
+}
+
+footer .animacion .logoabajo {
+  font-size: 60px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+footer .animacion .logoabajo img {
+  width: 100%;
+  animation: waviy 1.5s infinite;
+  animation-delay: calc(.1s * var(--i));
+  width: 6rem;
+}
+
+footer .waviy {
+  text-align: center;
+  -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(0, 0, 0, 0.699));
+  font-size: 50px;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+footer .waviy span {
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  color: whitesmoke;
+  text-transform: uppercase;
+  animation: waviy 1.5s infinite;
+  animation-delay: calc(.1s * var(--i));
+  padding: 1px;
+}
+
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 748px) {
+  footer .waviy {
+    display: none;
+  }
+}
+
+footer .derechos {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 0.6rem;
+  padding-bottom: 0.2rem;
+  border-right: 1.5rem solid #272a2e;
+  border-left: 1.5rem solid #272a2e;
+}
+
+@media screen and (min-width: 100px) and (max-width: 748px) {
+  footer .derechos {
+    padding: 1.5rem;
+    padding-bottom: 1;
+  }
+}
+
+footer .nav {
+  font-size: 16px;
+  font-family: "Questrial", sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  text-shadow: 2px 2px #212529;
+}
+/*# sourceMappingURL=creditos.css.map */
