@@ -36,6 +36,7 @@ $cortelargo: 1024px;
 body {
 
     ul {
+        margin-left: 0;
         list-style: none;
 
         &:visited {
@@ -106,7 +107,7 @@ header {
             }
 
             @media screen and (min-width: 100px) and (max-width: $cortetablet) {
-                font-size: 70px;
+                font-size: 60px;
             }
         }
 
@@ -371,7 +372,6 @@ main {
 footer {
     font-family: 'Questrial', sans-serif;
     background-color: $gris2;
-    border: 1.5rem solid $gris2;
 
     h3 {
         color: $claro;
@@ -432,7 +432,6 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-
 
         @media screen and (min-width: 100px) and (max-width: $cortetablet) {
             display: flex;
@@ -506,8 +505,6 @@ footer {
         text-align: center;
         font-size: 0.6rem;
         padding-bottom: 0.2rem;
-        border-right: 1.5rem solid $gris2;
-        border-left: 1.5rem solid $gris2;
 
         @media screen and (min-width: 100px) and (max-width: $cortetablet) {
             padding: 1.5rem;
@@ -525,6 +522,5 @@ footer {
         text-shadow: 2px 2px $gris;
     }
 }
-
 
 // CLOSE

@@ -104,7 +104,7 @@ header {
             }
 
             @media screen and (min-width: 100px) and (max-width: $cortetablet) {
-                font-size: 70px;
+                font-size: 60px;
             }
         }
 
@@ -291,7 +291,6 @@ main {
 footer {
     font-family: 'Questrial', sans-serif;
     background-color: $gris2;
-    border: 1.5rem solid $gris2;
 
     h3 {
         color: $claro;
@@ -309,17 +308,6 @@ footer {
         }
     }
 
-    ul {
-        list-style: none;
-
-        &:visited {
-            color: $gold;
-        }
-
-        &:hover {
-            size: 20px;
-        }
-    }
 
     .nav-item {
         align-items: center;
@@ -364,7 +352,6 @@ footer {
         justify-content: space-around;
         align-items: center;
 
-
         @media screen and (min-width: 100px) and (max-width: $cortetablet) {
             display: flex;
             flex-direction: column;
@@ -393,7 +380,6 @@ footer {
                 animation-delay: calc(.1s * var(--i));
                 width: 6rem;
             }
-
         }
     }
 
@@ -438,8 +424,6 @@ footer {
         text-align: center;
         font-size: 0.6rem;
         padding-bottom: 0.2rem;
-        border-right: 1.5rem solid $gris2;
-        border-left: 1.5rem solid $gris2;
 
         @media screen and (min-width: 100px) and (max-width: $cortetablet) {
             padding: 1.5rem;
@@ -456,7 +440,6 @@ footer {
         color: whitesmoke;
         text-shadow: 2px 2px $gris;
     }
-
 }
 
 // CLOSE

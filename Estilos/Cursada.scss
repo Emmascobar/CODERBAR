@@ -92,7 +92,7 @@ header {
             }
 
             @media screen and (min-width: 100px) and (max-width: $cortetablet) {
-                font-size: 70px;
+                font-size: 60px;
             }
         }
 
@@ -279,8 +279,7 @@ main {
 
 footer {
     font-family: 'Questrial', sans-serif;
-    background-color: $gris;
-    border: 1.5rem solid $gris2;
+    background-color: $gris2;
 
     h3 {
         color: $claro;
@@ -295,18 +294,6 @@ footer {
 
         span {
             color: $gold;
-        }
-    }
-
-    ul {
-        list-style: none;
-
-        &:visited {
-            color: $gold;
-        }
-
-        &:hover {
-            size: 20px;
         }
     }
 
@@ -353,7 +340,6 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-
 
         @media screen and (min-width: 100px) and (max-width: $cortetablet) {
             display: flex;
@@ -427,7 +413,6 @@ footer {
         text-align: center;
         font-size: 0.6rem;
         padding-bottom: 0.2rem;
-
 
         @media screen and (min-width: 100px) and (max-width: $cortetablet) {
             padding: 1.5rem;

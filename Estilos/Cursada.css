@@ -61,7 +61,7 @@ header .header-top h1 span {
 
 @media screen and (min-width: 100px) and (max-width: 748px) {
   header .header-top h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 }
 
@@ -239,8 +239,7 @@ main .medio h3 {
 
 footer {
   font-family: 'Questrial', sans-serif;
-  background-color: #212529;
-  border: 1.5rem solid #272a2e;
+  background-color: #272a2e;
 }
 
 footer h3 {
@@ -257,18 +256,6 @@ footer h3 {
 
 footer h3 span {
   color: #ebbc12;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer ul:visited {
-  color: #ebbc12;
-}
-
-footer ul:hover {
-  size: 20px;
 }
 
 footer .nav-item {
