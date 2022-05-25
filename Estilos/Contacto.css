@@ -135,6 +135,13 @@ main h2 {
   text-align: center;
 }
 
+@media screen and (min-width: 100px) and (max-width: 748px) {
+  main h2 {
+    font-size: 2rem;
+    padding: 6rem 2rem 2rem 3rem;
+  }
+}
+
 main .centro {
   display: flex;
   flex-direction: row;
