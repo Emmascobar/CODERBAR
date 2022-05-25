@@ -137,8 +137,8 @@ main h2 {
 
 @media screen and (min-width: 100px) and (max-width: 748px) {
   main h2 {
-    font-size: 2rem;
-    padding: 6rem 2rem 2rem 3rem;
+    font-size: 2.2rem;
+    padding: 6rem 1rem 1rem 1rem;
   }
 }
 
