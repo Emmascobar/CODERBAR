@@ -232,6 +232,8 @@ main .medio h3 {
 
 .profile-info {
   color: #BDBDBD;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 4.5rem;
   padding-bottom: 50px;
   position: relative;
@@ -262,7 +264,7 @@ main .medio h3 {
 }
 
 .profile-info i {
-  padding: 15px 35px 0px 35px;
+  padding: 20px 20px 20px 20px;
 }
 
 .profile-card:hover .profile-pic {
